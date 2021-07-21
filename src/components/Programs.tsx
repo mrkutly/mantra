@@ -121,7 +121,7 @@ const Contact = () => {
 								to="/count-to-five"
 								style={{ color: 'var(--lightpink)' }}
 							>
-								Debut Album "Count to Five" out on Innova Records
+								Debut Album "Count to Five" coming out on Innova Records
 							</PageLink>
 						</h2>
 						<p>

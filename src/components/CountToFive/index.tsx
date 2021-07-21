@@ -60,7 +60,7 @@ const CountToFive = () => {
 						href="https://www.innova.mu/albums/recap/count-five"
 						style={{ color: 'var(--lightpink)' }}
 					>
-						Out on Innova Records
+						Coming Out on Innova Records
 					</Link>
 					<AlbumNotes image={data.countToFive.childImageSharp.fluid} />
 					<br />
