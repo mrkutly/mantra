@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import { graphql, useStaticQuery } from 'gatsby'
 import Image from 'gatsby-image'
-import { FullScreenCard, ImageContainer } from './styles'
+import { FullScreenCard, ImageContainer, PageLink } from './styles'
 import SectionHeading from './SectionHeading'
 import { ImageResult } from './About'
 
@@ -116,6 +116,14 @@ const Contact = () => {
 						<WhiteImageContainer width="300px">
 							<Image fluid={recap.childImageSharp.fluid} />
 						</WhiteImageContainer>
+						<h2>
+							<PageLink
+								to="/count-to-five"
+								style={{ color: 'var(--lightpink)' }}
+							>
+								Debut Album "Count to Five" out on Innova Records
+							</PageLink>
+						</h2>
 						<p>
 							A professional percussion quartet of BIPOC women, all alumni of
 							Mantra Youth Percussion. Arlene Acevedo, Alexis Carter, Tiahna
