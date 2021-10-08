@@ -35,7 +35,7 @@ const Press = () => {
 
 	return (
 		<section id="press">
-			<FullScreenCard background="#000000b0" color="white">
+			<FullScreenCard color="white">
 				<SectionHeading>
 					<h1>Press</h1>
 				</SectionHeading>
