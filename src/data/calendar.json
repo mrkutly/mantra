@@ -1,7 +1,7 @@
 {
 	"mantraYouth": [
-		{ 
-			"year": "2017", 
+		{
+			"year": "2017",
 			"concerts": [
 				{
 					"date": "February 4",
@@ -99,18 +99,18 @@
 			"year": "2018",
 			"concerts": [
 				{
-					"date":"February 10",
+					"date": "February 10",
 					"location": {
 						"venue": "Necessary Noise Festival",
-						"city":"Rahway, NJ"
+						"city": "Rahway, NJ"
 					},
 					"program": []
 				},
 				{
-					"date":"March 12",
+					"date": "March 12",
 					"location": {
 						"venue": "Roulette Intermedium",
-						"city":"Brooklyn, NY"
+						"city": "Brooklyn, NY"
 					},
 					"program": [
 						{
@@ -120,10 +120,10 @@
 					]
 				},
 				{
-					"date":"May 4",
+					"date": "May 4",
 					"location": {
 						"venue": "Randolph Day of Percussion",
-						"city":"Randolph, NJ"
+						"city": "Randolph, NJ"
 					},
 					"program": [
 						{
@@ -133,10 +133,10 @@
 					]
 				},
 				{
-					"date":"May 9",
+					"date": "May 9",
 					"location": {
 						"venue": "Rahway HS",
-						"city":"Rahway, NJ"
+						"city": "Rahway, NJ"
 					},
 					"program": [
 						{
@@ -146,10 +146,10 @@
 					]
 				},
 				{
-					"date":"May 20",
+					"date": "May 20",
 					"location": {
 						"venue": "New Music Gathering at Berklee College of Music",
-						"city":"Boston, MA"
+						"city": "Boston, MA"
 					},
 					"program": [
 						{
@@ -159,10 +159,10 @@
 					]
 				},
 				{
-					"date":"May 24",
+					"date": "May 24",
 					"location": {
 						"venue": "The Cell",
-						"city":"New York, NY"
+						"city": "New York, NY"
 					},
 					"program": [
 						{
@@ -407,6 +407,27 @@
 	],
 	"recap": [
 		{
+			"year": "2022",
+			"concerts": [
+				{
+					"date": "Summer",
+					"location": {
+						"venue": "Beringia tour of Alaska",
+						"city": "Alaska"
+					},
+					"program": []
+				},
+				{
+					"date": "November",
+					"location": {
+						"venue": "PASIC session November presented by PAS Diversity Alliance",
+						"city": "TBA"
+					},
+					"program": []
+				}
+			]
+		},
+		{
 			"year": "2021",
 			"concerts": [
 				{
@@ -434,9 +455,9 @@
 					"program": []
 				},
 				{
-					"date": "September",
+					"date": "September 29",
 					"location": {
-						"venue": "Count to Five Album Release",
+						"venue": "Count to Five Album Release at Tenri Cultural Institute",
 						"city": "New York, NY"
 					},
 					"program": []
@@ -445,6 +466,24 @@
 		}
 	],
 	"mantra": [
+		{
+			"year": "2022",
+			"concerts": [
+				{
+					"date": "May",
+					"location": {
+						"venue": "Princeton Sound Kitchen",
+						"city": "Princeton, NJ"
+					},
+					"program": [
+						{
+							"composer": "Matt McBane",
+							"title": "New work (with Ashley Bathgate)"
+						}
+					]
+				}
+			]
+		},
 		{
 			"year": "2021",
 			"concerts": [

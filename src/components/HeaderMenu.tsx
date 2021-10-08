@@ -38,6 +38,9 @@ const HeaderMenu = ({ color }: HeaderMenuProps) => {
 	const [active, _setActive] = useState(0)
 	const refs = navLinks.map(useRef as () => MutableRefObject<any>)
 
+	const isActive = link =>
+		link.href === '/' ? pathname === link.href : pathname.includes(link.href)
+
 	const setActive = (idx: number) => {
 		refs[idx].current.focus()
 		_setActive(idx)
@@ -95,7 +98,7 @@ const HeaderMenu = ({ color }: HeaderMenuProps) => {
 								</Link>
 							) : (
 								<PageLink
-									className={pathname === link.href ? 'active' : ''}
+									className={isActive(link) ? 'active' : ''}
 									onKeyDown={handleKeyDown}
 									ref={refs[idx]}
 									role="menuitem"
