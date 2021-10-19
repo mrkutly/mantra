@@ -8,7 +8,7 @@ import { Article as ArticleType } from '../types'
 
 const PRESS_QUERY = graphql`
 	query {
-		articles: allArticlesJson(sort: { fields: publication, order: DESC }) {
+		articles: allArticlesJson {
 			nodes {
 				id
 				author

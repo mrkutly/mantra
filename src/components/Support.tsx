@@ -107,6 +107,11 @@ const Support = () => {
 					</p>
 					<ul>
 						<Supporter
+							fluid={images.nmusa.childImageSharp.fluid}
+							text="New Music USA"
+						/>
+
+						<Supporter
 							fluid={images.cma.childImageSharp.fluid}
 							text="Chamber Music America"
 						/>

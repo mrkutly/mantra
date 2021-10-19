@@ -10,6 +10,7 @@ const Layout = ({ children }) => {
 			style={{
 				margin: `0 auto`,
 				paddingTop: 0,
+				maxWidth: '1400px',
 			}}
 		>
 			{children}
